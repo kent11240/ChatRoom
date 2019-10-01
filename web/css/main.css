@@ -1,0 +1,75 @@
+body {
+    font-family: 微軟正黑體;
+}
+
+#msgBody {
+    width: 350px;
+    height: 450px;
+    overflow-y: scroll;
+    border: double;
+    overflow-wrap: break-word;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#msgDiv {
+    padding: 10px;
+}
+
+#msgDiv p {
+    margin: 3px;
+}
+
+#onlineBody {
+    width: 200px;
+    height: 450px;
+    border: double;
+    float: left;
+    margin-left: 5px;
+    overflow-wrap: break-word;
+}
+
+#onlineDiv {
+    padding: 10px;
+}
+
+#onlineDiv p {
+    margin: 3px;
+}
+
+#sendDiv {
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sendDiv p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#sendDiv input {
+    height: 25px;
+    border: 1px solid #B9BDC1;
+    padding: 0px 5px;
+    color: #626262;
+    background-color: #FEFEFE;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    margin-top: 3px;
+}
+
+#sendDiv input[type="text"] {
+    -webkit-box-shadow: 0 1px 2px #BBB inset;
+    -moz-box-shadow: 0 1px 2px #BBB inset;
+    box-shadow: 0 1px 2px #BBB inset;
+}
+
+.jscolor {
+    width: 149px;
+    height: 27px;
+    border:1px solid #AAAAAA;
+}
