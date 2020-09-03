@@ -59,7 +59,7 @@
         }
 
         function getWebsocket() {
-            var wsUri = "ws://localhost:8084/ChatRoom/ws/" + sender;
+            var wsUri = "ws://localhost:8080/ChatRoom/ws/" + sender;
             websocket = new WebSocket(wsUri);
             websocket.onmessage = function (evt) {
                 receiveHandler(evt.data);
